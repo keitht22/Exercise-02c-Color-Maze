@@ -24,8 +24,8 @@ position = Vector2( 32, 32 )
 shape = SubResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 3.0
-autostart = true
+wait_time = 2.0
+one_shot = true
 
 [node name="Delete" type="Area2D" parent="."]
 position = Vector2( 32, 32 )
